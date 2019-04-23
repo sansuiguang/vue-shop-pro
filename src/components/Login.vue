@@ -49,6 +49,7 @@ export default {
               duration:1000
             })
           }
+          window.sessionStorage.setItem('token',dt.data.token)
           // 校验成功，进入系统
           this.$router.push('/home')
         }
